@@ -53,8 +53,10 @@ T_Aut auteur; // Nom de l'auteur
 
 
 //prototypes
-void saisirLivre(T_livre * ptrL);void afficherLivre(const T_livre *ptrL);
+void saisirLivre(T_livre * ptrL);
 void afficherLivre(const T_livre *ptrL);
+void afficherLivre(const T_livre *ptrL);
+void enleverLivre(T_livre *ptrL);
 
 
 #endif //fin de compilation conditionnelle

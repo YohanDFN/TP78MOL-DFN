@@ -15,3 +15,8 @@ afficherChaine("AUTEUR :", (ptrL->auteur ));
 printf("\n");
 }
 
+void enleverLivre(T_livre *ptrL)
+{
+(ptrL->titre[0])='\0';
+(ptrL->auteur[0])='\0';
+}

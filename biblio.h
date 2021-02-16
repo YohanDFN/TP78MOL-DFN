@@ -4,7 +4,7 @@
 
 #include "livre.h"
 
-#define CAPACITE_BIBLIO 2 // nb maximum de livres ds la bibliotheque
+#define CAPACITE_BIBLIO 20 // nb maximum de livres ds la bibliotheque
 
 typedef  T_livre 	T_tabloDeLivres[CAPACITE_BIBLIO];
 
@@ -22,6 +22,8 @@ typedef struct
 void init (T_Bibliotheque *ptrB);
 int ajouterLivre(T_Bibliotheque  *ptrB);
 int  afficherBibliotheque(const T_Bibliotheque  *ptrB);
-
+int supprimerLivre(T_Bibliotheque *ptrB,int pos);
+int rechercheAuteur(T_Bibliotheque *ptrB);
+int rechercherBibliotheque(T_Bibliotheque *ptrB);
 
 #endif
